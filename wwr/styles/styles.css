@@ -1,0 +1,106 @@
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    background-color: #000;
+}
+
+nav a:hover {
+    background-color: #3F0071;
+}
+
+.buy {
+    background-color: #FB2576;
+    color: white;
+    text-decoration: none;
+}
+
+.buy:hover {
+background-color: white;
+color: #000;
+}
+
+#background {
+    background-color: #000;
+}
+
+.msg {
+    background-color: #150050;
+    color: white;
+}
+
+footer {
+    background-color: #150050;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.home-title {
+color:  #150050;
+}
+
+h4 {
+    color: #FB2576;
+}
+
+footer a:hover {
+    color:#FB2576 ;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}    
