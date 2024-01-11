@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Whitewater Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <meta name="description" content="Page for the user to contact the company.">
+    <meta name="author" content="Diego Granados">
+</head>
+<body>
+    <header>
+        <img src="./images/logo.png" alt="">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="contact-page">
+            <div class="information-column">
+                <h2>Contact information</h2>
+                <address>
+                    <span class="info-header">Address</span>
+                    <p>15701 CA-178, Bakersfield, CA 93306, Estados Unidos</p>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.215133193555!2d-118.81873549999999!3d35.4247004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80ea7180b2f54c37%3A0xaef0fcc2b75c909d!2s15701%20CA-178%2C%20Bakersfield%2C%20CA%2093306%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sve!4v1677972224210!5m2!1ses-419!2sve"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <span class="info-header">Phone</span>
+                    <span>+584246274401</span>
+                    <span class="info-header">Email</span>
+                    <span>diegogranados143@gmail.com</span>
+                </address>
+            </div>
+            <div class="form-column">
+                <h2>Form</h2>
+                <form action="">
+                    <fieldset>
+                        <legend>Name and Email</legend>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name">
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email">
+                    </fieldset>
+                    <fieldset id="purpose">
+                        <legend>Purpose</legend>
+                        <div>
+                            <input type="radio" id="purposeChoice1" name="purpose" value="General Inquiry">
+                            <label for="purposeChoice1">General Inquiry</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="purposeChoice2" name="purpose" value="Reservation Question">
+                            <label for="purposeChoice2">Reservation Question</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="purposeChoice3" name="purpose" value="Website Suggestion">
+                            <label for="purposeChoice3">Website Suggestion</label>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Message</legend>
+                        <textarea name="message" id="message" rows="10"></textarea>
+                    </fieldset>
+                    <div id="checkbox-container">
+                        <input type="checkbox" id="newsletter" value="subscribe">
+                        <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    </div>
+                    <div>
+                        <button type="submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <section id="employees">
+            <h3>We are waiting for you to contact us</h3>
+            <div class="image-container">
+                <figure>
+                    <img src="./images/employees01.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="./images/employees02.jpg" alt="">
+                </figure>
+                <figure>
+                    <img src="./images/employees03.jpg" alt="">
+                </figure>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Water White Rafting - 2023 | Diego Granados</p>
+        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg"
+                alt="facebook logo icon"></a><a href="https://www.whatsapp.com/" target="_blank"><img
+                src="images/whatsapp.svg" alt="whatsapp logo icon"></a><a href="https://www.instagram.com/"
+            target="_blank"><img src="images/instagram.svg" alt="instagram logo icon"></a>
+    </footer>
+</body>
+
+</html>
