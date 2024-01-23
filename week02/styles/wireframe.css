@@ -73,4 +73,5 @@ header a {
   display: inline-block;
   margin: 0 auto;
   margin-bottom: 18px;
+  position: relative;
 }
