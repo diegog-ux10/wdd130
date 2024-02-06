@@ -24,6 +24,7 @@
 body {
   max-width: 1440px;
   font-family: var(--paragraph-font);
+  margin: 0 auto;
 }
 
 header {
