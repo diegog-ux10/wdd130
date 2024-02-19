@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,28 +8,91 @@
     <link rel="stylesheet" href="styles/rafting.css">
     <meta name="description" content="Trips Page">
     <meta name="author" content="Diego Granados">
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="./images/logo.png" alt="">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact us</a></li>
-            </ul>
-        </nav>
+      <img src="./images/logo.png" alt="" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+      </nav>
     </header>
-    <main>
+    <main id="trips">
+      <!-- Call to Action -->
+      <section class="cta">
+        <h2>Book Your Adventure Today!</h2>
+        <p>
+          Experience the thrill of rafting with us. Contact us now to reserve
+          your spot!
+        </p>
+        <a href="contact.html" class="btn">Contact Us</a>
+      </section>
 
+      <!-- Trip Descriptions -->
+      <section>
+        <h2>Featured Trips</h2>
+        <div class="trip-description">
+          <div class="trip">
+            <img src="images/rafting-01.jpg" alt="Trip 1">
+            <h3>Perú Rafting</h3>
+            <p>
+              Explore the scenic rivers of Peru with our experienced guides.
+              Perfect for adventurers of all skill levels!
+            </p>
+          </div>
+          <div class="trip">
+            <img src="images/rafting-02.jpg" alt="Trip 2">
+            <h3>Salmon River Experience</h3>
+            <p>
+              Dive into the exhilarating rapids of the Salmon River. Join us for
+              an unforgettable journey through nature!
+            </p>
+          </div>
+          <div class="trip">
+            <img src="images/rafting-03.jpg" alt="Trip 3">
+            <h3>Nile River Explorers</h3>
+            <p>
+              Embark on an epic expedition down the legendary Nile River.
+              Discover ancient wonders and breathtaking landscapes!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Table Outlining Available Trips -->
+      <section class="trip-table">
+        <h2>All Trips</h2>
+        <table>
+          <tr>
+            <th>Trip Name</th>
+            <th>Location</th>
+            <th>Duration</th>
+            <th>Difficulty</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Perú Rafting</td>
+            <td>Peru</td>
+            <td>3 days</td>
+            <td>Intermediate</td>
+            <td>$500</td>
+          </tr>
+          <!-- Additional trip rows -->
+        </table>
+      </section>
     </main>
     <footer>
-        <p>&copy; Water White Rafting - 2023 | Diego Granados</p>
-        <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.svg"
-                alt="facebook logo icon"></a><a href="https://www.whatsapp.com/" target="_blank"><img
-                src="images/whatsapp.svg" alt="whatsapp logo icon"></a><a href="https://www.instagram.com/"
-            target="_blank"><img src="images/instagram.svg" alt="instagram logo icon"></a>
+      <p>&copy; Water White Rafting - 2023 | Diego Granados</p>
+      <a href="https://www.facebook.com/" target="_blank"
+        ><img src="images/facebook.svg" alt="facebook logo icon"></a
+      ><a href="https://www.whatsapp.com/" target="_blank"
+        ><img src="images/whatsapp.svg" alt="whatsapp logo icon"></a
+      ><a href="https://www.instagram.com/" target="_blank"
+        ><img src="images/instagram.svg" alt="instagram logo icon"></a>
     </footer>
-</body>
+  </body>
 </html>

@@ -415,3 +415,77 @@ section.adventures .adventures_pics figure img {
 #home #grid-section div {
   grid-row: 1/3;
 }
+
+/* Call to Action Styles */
+#trips .cta {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#trips .cta h2 {
+  margin-bottom: 10px;
+}
+
+#trips .cta p {
+  margin-bottom: 20px;
+}
+
+#trips .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#trips .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Trip Descriptions Styles */
+.trip-description {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.trip {
+  width: 30%;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+#trips .trip img {
+  width: 100%;
+  height: auto;
+}
+
+#trips .trip h3,
+.trip p {
+  padding: 10px;
+}
+
+/* Table Styles */
+#trips .trip-table {
+  margin-top: 40px;
+}
+
+#trips table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#trips th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#trips th {
+  background-color: #f0f0f0;
+}
+
